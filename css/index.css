@@ -1,1 +1,223 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background:whitesmoke;
+}
+header nav a { 
+  padding-bottom: 1em;
+  width:100%;
+  text-decoration: none;
+  color: #000;
+}
+nav {
+  font-size: 1.4em;
+  display:flex;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: inherit;
+  line-height: 1.75em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+h1,h2,h3 {
+    font-size:1.5em;
+    letter-spacing:.1em;
+    text-align: center;
+}
+.container {
+  margin:0 auto;
+  max-width: 100%;
+  width:1400px;
+}
+ul.buttons {
+  text-align: center;
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+ul.buttons li {
+  display: inline-block;
+  padding: 0 0 0 1.5em;
+}
+.button {
+  text-align: center;
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+#cta {
+  background-size: 10em, 10em, auto, cover;
+  padding: 3em 1.5em;
+}
+p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: silver;
+  width:100%;
+  border: 10px solid lightcoral;
+  padding:10px;
+  margin: 10px;
+}
+#interest {
+  background-color: blanchedalmond;
+  background-size: 20em, 20em, auto, cover;
+  color:#000;
+  cursor:default; 
+  padding: 4em 0;
+  text-align:center;
+}
+.text p {
+  background-color:transparent;
+}
+table, th, td {
+  font-size: 20px;
+  border: 3px solid goldenrod;
+}
+table {
+  padding: 15px;
+  background: rgb(143, 143, 221);
+  width:100%;
+}
+th {
+  text-align: right;
+}
+td {
+  text-transform: uppercase;
+  text-align: center;
+}
+.contact {
+
+}
